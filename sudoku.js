@@ -8,6 +8,12 @@ function solve(boardString) {
   for (let i = 0; i < boardString.length; i += 9) {
     arr.push(boardString.slice(i, i + 9));
   }
+  for (let column = 0; column < 9; column += 1) {
+    for (let row = 0; row < 9; row += 1) {
+      if (arr[i][j] === "-") {
+      }
+    }
+  }
 }
 
 /**
